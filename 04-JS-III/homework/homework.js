@@ -114,7 +114,7 @@ function numeroMasGrande(numeros) {
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
 if (arguments.length < 1){
   return 0;
@@ -253,10 +253,11 @@ function continueStatement(numero) {
   var array = [];
   var suma = numero;
   for (let i = 0; i < 10; i++) {
+
     if (i === 5){
       continue;
     } else {
-      suma = suma + 2;
+      suma = suma + 2
       array.push(suma);
     }
   }
